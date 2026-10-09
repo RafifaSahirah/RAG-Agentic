@@ -1,0 +1,15 @@
+# ==== BE ====
+backend/.env
+backend/venv/
+backend/.venv/
+**/__pycache__/
+
+backend/chroma_langchain_db/
+backend/storage/chat_storage.json
+backend/storage/temp/
+backend/storage/notes/
+
+# ==== FE ====
+frontend/node_modules/
+frontend/.next/
+frontend/out/
