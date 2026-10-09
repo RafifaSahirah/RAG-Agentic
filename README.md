@@ -23,9 +23,9 @@ Unlike conventional RAG, which always performs retrieval, this project takes an 
 - 📄 **PDF-based Q&A**: upload a document and ask questions about its contents.
 - 💬 **General chat**: chat freely without a document.
 - 🧠 **Agentic tool calling**: 
+    - 🔍 **PDF Document Search**: autonomous vector search powered by ChromaDB to answer queries directly from uploaded PDFs.
     - 🧮 **Calculator**: Executes precise basic arithmetic (`tambah`, `kurang`, `kali`, `bagi`).
     - 📝 **Save notes**: save summaries or information to a `.txt` file on user request.
-    - 💾 **Persistent history**: uploaded files and chat sessions are stored locally, so nothing is lost on refresh or restart.
 - 🌐 **Multilingual support**: a multilingual embedding model makes it suitable for documents in Indonesian and other languages.
 
 ## 🛠️ Tech Stack
